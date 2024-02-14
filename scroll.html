@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Document</title>
+     <link rel="stylesheet" href="scroll.css" />
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="container">
+
+          <div class="div">
+            I am div 1
+          </div>
+          <div class="div" data-aos="fade-left"  data-aos-once="false">
+            I am div 2
+          </div>
+          <div class="div" data-aos="fade-right">
+            I am div 3
+          </div>
+          <div class="div"  data-aos="fade-up">
+            I am div 4
+          </div>
+          <div class="div"  data-aos="zoom-in">
+            I am div 5
+          </div>
+          <div class="div" data-aos="flip-up">
+            I am div 6
+          </div>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration:3000}
+    );
+  </script>
+  </body>
+</html>
